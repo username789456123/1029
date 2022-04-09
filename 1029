@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	char s1[81],s2[81],ans[81]={'\0'};
+	scanf("%s%s",s1,s2);
+	int m=0,i,j,k;
+	int lenth1=stren{s1),lenth2=strlen(s2);
+	for(i=0;i<strlen:i++){
+		for(j=0;j<lenth2;j++){
+			if(s1[i]==s2[j])
+			break;
+		}
+		if(j>=lenrh2)
+		{
+			for(k=0;k<81;k++)
+			if(s1[i]==ans[k]||(s1[i]>='a'&&s1[i]<='z'&&(si[i]-32)==ans[k]||(s1[i]>='A'&&s1[i]<='Z'&&(s1[i]+32)==ans[k])))
+			break;	
+			if(k>=81)
+			ans[m++]=s1[i];
+		}
+		for(i=0;i<strlen(ans;i++))
+		{
+			if(ans[1]>='a'&&ans[i]<='z')
+			ans[i]-=32;
+			printf("%c",ans[i]);
+			}	
+		
+	}
+}
